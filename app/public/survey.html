@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./uikit-3.0.0-rc.20/css/uikit.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="uikit-3.0.0-rc.20/js/uikit.min.js"></script>
+    <title>Friend Finder</title>
+</head>
+
+<body>
+    <div class="uk-container uk-box-shadow-medium ">
+        <h1 class="uk-padding-top-large">Welcome to the Friend Finder Survey!</h1>
+
+        <form action="">
+            <fieldset class="uk-fieldset">
+                <legend class="uk-legend">
+                    <h5>Your Name</h5>
+                    <div class="uk-margin">
+                        <input id="userName" class="uk-input" type="text" placeholder="Your Name">
+                    </div>
+                </legend>
+            </fieldset>
+        </form>
+
+        <h2 id="welcome"></h2>
+
+        <p>For each statement, select the number from 1 to 5 that best refects
+            the degree to which you support that
+            statement. Choose 1 for lowest and 5 for highest support for the statement.
+            Just do your best and be as honest as possible. When you are finished, you will be paired with the one
+            person who's answers best match your own.</p>
+
+        <form class=" uk-box-shadow-medium">
+            <fieldset class="uk-fieldset">
+                <legend class="uk-legend uk-padding uk-text-bold ">Friend Finder Survey</legend>
+                <hr>
+                <div id="question1" class="uk-margin uk-padding-small">
+                    <h4>Coding is the greatest activity ever.</h4>
+                    <div class="uk-margin  ">
+                        <select id="answer1" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question2" class="uk-margin uk-padding-small ">
+                    <h4>Chocolate cake beats white cake any day.</h4>
+                    <div class="uk-margin">
+                        <select id="answer2" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question3" class="uk-margin uk-padding-small ">
+                    <h4>I'm always on time to all of my appointments.</h4>
+                    <div class="uk-margin">
+                        <select id="answer3" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question4" class="uk-margin uk-padding-small">
+                    <h4>Parents should graduate a parenting class before having a baby. </h4>
+                    <div class="uk-margin">
+                        <select id="answer4" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question5" class="uk-margin uk-padding-small">
+                    <h4>Winter is the best season.</h4>
+                    <div class="uk-margin">
+                        <select id="answer5" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question6" class="uk-margin uk-padding-small">
+                    <h4>BBQ is the highest form of cuisine.</h4>
+                    <div class="uk-margin">
+                        <select id="answer6" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question7" class="uk-margin uk-padding-small">
+                    <h4>Popular music peaked in 1984.</h4>
+                    <div class="uk-margin">
+                        <select id="answer7" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question8" class="uk-margin uk-padding-small">
+                    <h4>The use of CGI in movies makes today's film inferior to anything before 2000.</h4>
+                    <div class="uk-margin">
+                        <select id="answer8" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question9" class="uk-margin uk-padding-small">
+                    <h4>Blondes have more fun.</h4>
+                    <div class="uk-margin">
+                        <select id="answer9" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <hr>
+                </div>
+                <div id="question10" class="uk-margin uk-padding-small">
+                    <h4>Tom Brady is the spawn of Satan.</h4>
+                    <div class="uk-margin">
+                        <select id="answer10" class="uk-select uk-form-width-small ">
+                            <option>Select One</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <a class="uk-button uk-button-primary uk-button-large uk-width-1-2 uk-margin-large-bottom" href="#modal-center"
+                    uk-toggle>Submit my Answers</a>
+
+
+                <!--<button class="uk-button uk-button-primary uk-button-large uk-width-1-1 uk-margin-large-bottom">FIND
+                    FRIEND</button>-->
+            </fieldset>
+        </form>
+
+        <div class="uk-margin-large uk-child-width-1-3@m" id="show">
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./survey.js"></script>
+</body>
+
+</html>

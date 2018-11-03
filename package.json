@@ -1,0 +1,17 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Find a friend based on similarity of beliefs.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jim Schlader",
+  "license": "MIT"
+}
